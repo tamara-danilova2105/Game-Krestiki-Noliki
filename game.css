@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1570743118730-7125a9cc4f08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1944&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+}
+
+.sea {
+    color: #0E49B5;
+    text-shadow: 4px 3px black;
+}
+
+.mountains {
+    color: #00AF91;
+    text-shadow: 4px 3px black;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+#startNewGame {
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    padding: 5px 20px;
+    border: none;
+}
+
+#field td {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.startgame {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+.swal2-title {
+    font-family: 'Lobster', cursive;
+}
+
+@media all and (max-width: 800px) {
+    body {
+        height: 100vh;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        font-size: 25px;
+    }
+
+    #field td {
+        width: 110px;
+        height: 110px;
+    }
+
+    img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .startgame {
+        margin-top: 60px;
+        margin-bottom: 240px;
+    }
+    
+}

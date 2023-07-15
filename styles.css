@@ -1,0 +1,14 @@
+#field td {
+	width: 70px;
+	height: 70px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+    font-size: 30px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
