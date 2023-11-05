@@ -68,3 +68,8 @@ function getWinner() {
         }
     }
 };
+
+const btn = querySelector('#startNewGame');
+btn.addEventListener('click', () => {
+    location.reload();
+});
